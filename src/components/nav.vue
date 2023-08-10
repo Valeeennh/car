@@ -79,6 +79,12 @@
       </nav>
     </div>
 
+    <a
+    href="#"
+    class="fixed right-4 bottom-4 inline-blocktext-white font-bold py-2 px-3  bg-slate-300 z-50"
+    ><ion-icon name="chevron-up-outline"></ion-icon></a
+  >
+
 </template>
 
 <script >
