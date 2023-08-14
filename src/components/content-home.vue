@@ -31,6 +31,6 @@
     
   </section>
 
-  <div class="mb-96"></div>
+  
 
 </template>
