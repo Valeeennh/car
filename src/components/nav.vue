@@ -6,8 +6,8 @@
       <nav
         class="
           container
-          px-6
-          py-8
+          px-3
+          py-3
           mx-auto
           md:flex md:justify-between md:items-center
         "
@@ -20,9 +20,13 @@
               font-bold
               text-gray-800
               md:text-2xl
-              hover:text-blue-400
+              hover:text-pink-400
             "
-            ><VLogo />
+            >
+          
+          <img src="/public/unicorn.gif" alt="Your Company" class="h-20 w-auto" />
+        
+          
           </router-link>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -60,17 +64,17 @@
             md:mt-0
           "
         >
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:pink-blue-400">
             <a href="">Home</a>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-            <a href="/about"> About</a>
+          <li class="text-sm font-bold text-gray-800 hover:text-pink-400">
+            <a href=""> About</a>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
-             <a href="/Blogs">Blogs</a>
+          <li class="text-sm font-bold text-gray-800 hover:text-pink-400">
+             <a href="">Blogs</a>
           </li>
           <li class="">
-             <a href="/Contact"><button class="bg-blue-500 hover:bg-orange-400 text-white font-bold py-3 px-8 rounded-lg transition ease-in-out duration-500">
+             <a href=""><button class="bg-pink-500 hover:bg-pink-400 text-white font-bold py-3 px-8 rounded-lg transition ease-in-out duration-500">
            Contact Us!
         </button>
           </a>
@@ -95,4 +99,6 @@ export default {
     };
   },
 };
+import Ch from "@/components/content-home.vue";
+import card from "@/components/card.vue";
 </script>
